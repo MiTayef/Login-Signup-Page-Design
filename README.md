@@ -7,13 +7,13 @@
 <body>
 
 <!-- Banner Me Area -->
-<h2>Information About App and Developers 👑</h2>
+<h2>Information About App and Developers 👑</h2></br>
 <img src="https://github.com/user-attachments/assets/09cc182a-0842-48c2-9d12-85931874dc95" /> </br></br>
 
 
 <!-- App Features Area -->
-<h3>App Key Features 💎</h3>
-<p>✔ Custom Set Day For Flexible and Immidiate Update</p>
+<h3>UI Key Features 💎</h3>
+<p>✔ Color Combo</p>
 </br></br>
 
 
