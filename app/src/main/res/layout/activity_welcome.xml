@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/amazingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's Make Some Amazing"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/welcomeText"
+        android:fontFamily="casual"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        app:lottie_rawRes="@raw/guiterist"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Go Ahead"
+        android:textColor="@color/white"
+        android:background="@drawable/go_btn_bg"
+        />
+
+
+</RelativeLayout>
